@@ -1,6 +1,6 @@
 {
   "name": "Youtube ads skip",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "The extension skips youtube ads automatically",
   "host_permissions": ["*://www.youtube.com/*", "*://www.youtu.be/*"],
   "content_scripts": [

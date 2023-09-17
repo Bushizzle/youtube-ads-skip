@@ -1,7 +1,7 @@
 export const removeAds = () => {
   const adSkip = document.querySelector('.ytp-ad-skip-button') as HTMLButtonElement;
   if (adSkip) adSkip.click();
-  const adRenderer = document.querySelector('.ytd-display-ad-renderer');
+  const adRenderer = document.querySelector('.ytd-ad-slot-renderer');
   if (adRenderer) adRenderer.remove();
 };
 
