@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+  "rules": {
+    "eqeqeq": "error",
+    "curly": "error",
+    "no-console": "warn",
+    "complexity": ["error", 10],
+    "yoda": "error",
+    "no-unused-vars": "warn",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "import/prefer-default-export": "off"
+  }
+}
