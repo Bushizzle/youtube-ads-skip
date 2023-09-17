@@ -6,7 +6,7 @@ export const removeAds = () => {
 };
 
 export const init = () => {
-  console.log('init');
+  removeAds();
   const observer = new MutationObserver(() => {
     removeAds();
   });
